@@ -1,3 +1,4 @@
+<!--底部项目栏  外卖/搜索-->
 <template>
   <div class="footer_guide">
     <span class="guide_item" :class="{on:'/msite'===$route.path}" @click="goTo('/msite')">
